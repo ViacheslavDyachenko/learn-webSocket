@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Socket</title>
+  </head>
+  <body>
+    <h1>Клиентский чат на WebSocket</h1>
+    <button id="login" type="button" title="Simulate login">
+      симуляция авторизации
+    </button>
+    <button id="logout" type="button" title="Simulate logout">
+      симуляция разлогина
+    </button>
+    <button id="wsButton" type="button" title="Open WebSocket connection">
+      открытие WebSocket соединения
+    </button>
+    <button id="wsSendButton" type="button" title="Send WebSocket message">
+      отправить сообщение
+    </button>
+    <input placeholder="сообщение" id="input" type="text">
+    <pre id="messages" style="height: 400px; overflow: scroll"></pre>
+    <script src="app.js"></script>
+  </body>
+</html>
